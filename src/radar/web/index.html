@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internship Radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f3f6f8;
+    --surface: #ffffff;
+    --ink: #14213d;
+    --muted: #5b6b80;
+    --line: #d9e1e8;
+    --signal: #0e7c7b;
+    --signal-soft: #d6efec;
+    --gap: #c2416b;
+    --gap-soft: #f7dde6;
+    --track: #e6ecf1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0f1a24; --surface: #172532; --ink: #e6eef3; --muted: #93a4b5;
+      --line: #263848; --signal: #3cc5b7; --signal-soft: #173d3d;
+      --gap: #f0739a; --gap-soft: #44212f; --track: #213242;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #0f1a24; --surface: #172532; --ink: #e6eef3; --muted: #93a4b5;
+    --line: #263848; --signal: #3cc5b7; --signal-soft: #173d3d;
+    --gap: #f0739a; --gap-soft: #44212f; --track: #213242;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font: 16px/1.55 "Golos Text", system-ui, sans-serif;
+    font-variant-numeric: tabular-nums;
+  }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 0 16px; }
+
+  header.top {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 20px 0; gap: 16px;
+  }
+  .brand { font: 600 15px/1 "Golos Text", sans-serif; display: flex; gap: 10px; align-items: center; }
+  .brand svg { flex: none; }
+  .top nav { display: flex; gap: 18px; font-size: 15px; color: var(--muted); }
+  .top nav a { text-decoration: none; }
+  .top nav a:hover { color: var(--ink); }
+
+  /* Hero: сама функция подбора и есть главный экран */
+  .hero { padding: 28px 0 56px; }
+  .hero h1 {
+    font: 700 clamp(30px, 5.4vw, 60px)/1.04 "Unbounded", sans-serif;
+    letter-spacing: -0.02em; margin: 0 0 16px; max-width: 15ch;
+  }
+  .hero .lede { color: var(--muted); max-width: 56ch; margin: 0 0 32px; font-size: 18px; }
+
+  .match { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 32px; align-items: start; }
+  @media (max-width: 860px) { .match { grid-template-columns: 1fr; } }
+
+  form.resume { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+  form.resume label.field { display: block; font-weight: 600; margin-bottom: 8px; }
+  textarea {
+    width: 100%; min-height: 240px; resize: vertical; padding: 12px 14px;
+    border: 1px solid var(--line); border-radius: 10px; background: var(--paper); color: var(--ink);
+    font: inherit; font-size: 15px;
+  }
+  .opts { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 14px 0 18px; font-size: 15px; }
+  .opts label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
+  input[type=checkbox] { accent-color: var(--signal); width: 16px; height: 16px; }
+  button {
+    font: 600 15px/1 "Golos Text", sans-serif; border: 0; border-radius: 10px; cursor: pointer;
+    padding: 13px 18px; background: var(--signal); color: var(--surface);
+  }
+  button.ghost { background: transparent; color: var(--signal); border: 1px solid var(--signal); padding: 9px 12px; font-size: 14px; }
+  button:disabled { opacity: .55; cursor: progress; }
+  .hint { color: var(--muted); font-size: 13px; margin-top: 10px; }
+
+  .results { display: flex; flex-direction: column; gap: 2px; }
+  .empty { color: var(--muted); border: 1px dashed var(--line); border-radius: 14px; padding: 28px; }
+  .result { padding: 16px 4px 18px; border-bottom: 1px solid var(--line); }
+  .result-head { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: baseline; }
+  .result h3 { font-size: 17px; margin: 0; font-weight: 600; }
+  .result h3 a { text-decoration: none; }
+  .result h3 a:hover { text-decoration: underline; }
+  .company { color: var(--muted); font-size: 14px; }
+  .score { font: 700 20px/1 "Unbounded", sans-serif; color: var(--signal); }
+  .meter { height: 6px; background: var(--track); border-radius: 3px; margin: 10px 0 12px; overflow: hidden; }
+  .meter span { display: block; height: 100%; background: var(--signal); border-radius: 3px; transform-origin: left; animation: grow .6s ease-out both; }
+  @keyframes grow { from { transform: scaleX(0); } }
+  @media (prefers-reduced-motion: reduce) { .meter span { animation: none; } }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 13px; padding: 3px 9px; border-radius: 999px; }
+  .chip.have { background: var(--signal-soft); color: var(--signal); }
+  .chip.need { background: var(--gap-soft); color: var(--gap); }
+  .result-foot { display: flex; gap: 12px; align-items: center; margin-top: 12px; flex-wrap: wrap; font-size: 14px; color: var(--muted); }
+  .ai { margin-top: 14px; padding: 14px 16px; background: var(--paper); border-left: 3px solid var(--signal); border-radius: 0 10px 10px 0; font-size: 15px; }
+  .ai h4 { margin: 10px 0 4px; font-size: 14px; }
+  .ai ul { margin: 0; padding-left: 18px; }
+  .ai p { margin: 6px 0; white-space: pre-line; }
+
+  /* Рынок */
+  section.market { padding: 56px 0 72px; border-top: 1px solid var(--line); }
+  section.market h2 { font: 700 clamp(22px, 3vw, 32px)/1.15 "Unbounded", sans-serif; margin: 0 0 8px; }
+  .sub { color: var(--muted); margin: 0 0 32px; max-width: 60ch; }
+
+  .facts { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-bottom: 44px; }
+  .fact b { display: block; font: 700 30px/1.1 "Unbounded", sans-serif; }
+  .fact span { color: var(--muted); font-size: 14px; }
+
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; }
+  @media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; gap: 40px; } }
+  h3.block { font-size: 18px; margin: 0 0 16px; }
+
+  .bars { list-style: none; margin: 0; padding: 0; }
+  .bars li { display: grid; grid-template-columns: 9.5em 1fr 3.2em; gap: 10px; align-items: center; padding: 5px 0; font-size: 14px; }
+  .bars .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bars .bar { height: 10px; background: var(--track); border-radius: 5px; overflow: hidden; }
+  .bars .bar i { display: block; height: 100%; background: var(--signal); border-radius: 5px; }
+  .bars .val { text-align: right; color: var(--muted); }
+  .bars button.name { all: unset; cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .bars button.name:hover { color: var(--signal); }
+  .bars button.name:focus-visible { outline: 2px solid var(--signal); }
+
+  .range { margin-bottom: 26px; }
+  .range-label { display: flex; justify-content: space-between; font-size: 14px; margin-bottom: 8px; }
+  .range-label b { font-weight: 600; }
+  .range-track { position: relative; height: 26px; }
+  .range-track .span { position: absolute; top: 10px; height: 6px; background: var(--signal); opacity: .28; border-radius: 3px; }
+  .range-track .median { position: absolute; top: 3px; width: 4px; height: 20px; margin-left: -2px; background: var(--signal); border-radius: 2px; }
+  .axis { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); padding-top: 6px; }
+
+  .pairs { margin-top: 18px; font-size: 14px; color: var(--muted); min-height: 1.5em; }
+  .pairs b { color: var(--ink); font-weight: 600; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 0; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 500; }
+  td.num, th.num { text-align: right; }
+
+  .trend { display: flex; align-items: flex-end; gap: 6px; height: 120px; padding-top: 8px; }
+  .trend div { flex: 1; background: var(--signal); border-radius: 4px 4px 0 0; min-height: 3px; position: relative; }
+  .trend-axis { display: flex; gap: 6px; font-size: 12px; color: var(--muted); margin-top: 6px; }
+  .trend-axis span { flex: 1; text-align: center; overflow: hidden; white-space: nowrap; }
+
+  footer { padding: 28px 0 40px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); }
+  .theme-toggle { background: none; color: var(--muted); border: 1px solid var(--line); padding: 7px 10px; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true">
+        <circle cx="13" cy="13" r="11.5" fill="none" stroke="currentColor" stroke-opacity=".35"/>
+        <circle cx="13" cy="13" r="6.5" fill="none" stroke="currentColor" stroke-opacity=".35"/>
+        <path d="M13 13 L22 6" stroke="var(--signal)" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="18.5" cy="9" r="2" fill="var(--signal)"/>
+      </svg>
+      Internship Radar
+    </div>
+    <nav>
+      <a href="#market">Рынок</a>
+      <a href="/docs">API</a>
+      <button class="theme-toggle" id="theme" type="button">Тема</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Найди стажировку под своё резюме</h1>
+    <p class="lede">Вставь текст резюме — сервис сравнит его со свежими IT-стажировками и junior-вакансиями
+      и покажет, какие навыки у тебя уже есть, а какие стоит подтянуть.</p>
+
+    <div class="match">
+      <form class="resume" id="match-form">
+        <label class="field" for="resume">Резюме</label>
+        <textarea id="resume" required minlength="30" placeholder="Студент 4 курса, Python, SQL, Git. Делал pet-проект на FastAPI с PostgreSQL…"></textarea>
+        <div class="opts">
+          <label><input type="checkbox" id="remote"> Только удалёнка</label>
+          <label><input type="checkbox" id="lvl-intern" checked> Стажировки</label>
+          <label><input type="checkbox" id="lvl-junior" checked> Junior</label>
+        </div>
+        <button type="submit" id="match-btn">Подобрать вакансии</button>
+        <p class="hint" id="llm-hint"></p>
+      </form>
+
+      <div class="results" id="results" aria-live="polite">
+        <div class="empty">Здесь появятся десять самых подходящих вакансий с оценкой соответствия.</div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="market" id="market">
+  <div class="wrap">
+    <h2>Что сейчас на рынке</h2>
+    <p class="sub" id="market-sub">Данные по всем вакансиям в базе.</p>
+
+    <div class="facts" id="facts"></div>
+
+    <div class="grid2">
+      <div>
+        <h3 class="block">Самые частые навыки</h3>
+        <ul class="bars" id="skills"></ul>
+        <p class="pairs" id="pairs">Нажми на навык, чтобы увидеть, что с ним обычно требуют вместе.</p>
+      </div>
+      <div>
+        <h3 class="block">Зарплаты по уровням</h3>
+        <div id="salaries"></div>
+        <h3 class="block" style="margin-top:36px">Новые вакансии по неделям</h3>
+        <div class="trend" id="trend"></div>
+        <div class="trend-axis" id="trend-axis"></div>
+      </div>
+    </div>
+
+    <div style="margin-top:48px">
+      <h3 class="block">Кто больше всех нанимает</h3>
+      <table id="companies"><thead><tr><th>Компания</th><th class="num">Вакансий</th><th class="num">Удалённо</th></tr></thead><tbody></tbody></table>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  <footer>Данные: Хабр Карьера. Проект с открытым кодом на FastAPI, SQL и Claude API.</footer>
+</div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const rub = (n) => n == null ? "—" : new Intl.NumberFormat("ru-RU").format(n) + " ₽";
+const levelName = { intern: "Стажёр", junior: "Junior", middle: "Middle", senior: "Senior", unknown: "Не указан" };
+const safeUrl = (u) => /^https:\/\//.test(u) ? u : "#";
+
+async function api(path, opts) {
+  const res = await fetch(path, opts);
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    const detail = Array.isArray(body.detail) ? body.detail.map((d) => d.msg).join("; ") : body.detail;
+    throw new Error(detail || `Ошибка ${res.status}`);
+  }
+  return res.json();
+}
+
+// Тема
+(() => {
+  const root = document.documentElement;
+  try { const t = localStorage.getItem("theme"); if (t) root.dataset.theme = t; } catch {}
+  $("#theme").addEventListener("click", () => {
+    const dark = root.dataset.theme ? root.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+    root.dataset.theme = dark ? "light" : "dark";
+    try { localStorage.setItem("theme", root.dataset.theme); } catch {}
+  });
+})();
+
+let llmOn = false;
+let lastResume = "";
+
+async function loadHealth() {
+  const h = await api("/api/health");
+  llmOn = h.llm;
+  $("#llm-hint").textContent = llmOn
+    ? "Для каждой вакансии можно запросить разбор от Claude и черновик сопроводительного письма."
+    : "AI-разбор выключен: чтобы включить, запусти сервер с ANTHROPIC_API_KEY.";
+}
+
+$("#match-form").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const btn = $("#match-btn");
+  const levels = [["intern", "#lvl-intern"], ["junior", "#lvl-junior"]].filter(([, s]) => $(s).checked).map(([l]) => l);
+  if (!levels.length) { $("#results").innerHTML = `<div class="empty">Выбери хотя бы один уровень: стажировки или junior.</div>`; return; }
+  lastResume = $("#resume").value;
+  btn.disabled = true; btn.textContent = "Подбираю…";
+  try {
+    const items = await api("/api/match", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ resume: lastResume, remote_only: $("#remote").checked, levels, top_k: 10 }),
+    });
+    renderResults(items);
+  } catch (err) {
+    $("#results").innerHTML = `<div class="empty">${esc(err.message)}</div>`;
+  } finally {
+    btn.disabled = false; btn.textContent = "Подобрать вакансии";
+  }
+});
+
+function renderResults(items) {
+  if (!items.length) {
+    $("#results").innerHTML = `<div class="empty">Под эти фильтры вакансий нет. Сними «Только удалёнка» или добавь уровень.</div>`;
+    return;
+  }
+  $("#results").innerHTML = items.map((r) => {
+    const v = r.vacancy, pct = Math.round(r.score * 100);
+    const have = r.matched_skills.map((s) => `<span class="chip have">${esc(s)}</span>`).join("");
+    const need = r.missing_skills.slice(0, 6).map((s) => `<span class="chip need">${esc(s)}</span>`).join("");
+    const salary = v.salary_from || v.salary_to
+      ? `${v.salary_is_predicted ? "≈ " : ""}${rub(v.salary_from)}${v.salary_to && v.salary_to !== v.salary_from ? " – " + rub(v.salary_to) : ""}` : "зарплата не указана";
+    return `<article class="result">
+      <div class="result-head">
+        <div><h3><a href="${esc(safeUrl(v.url))}" target="_blank" rel="noopener">${esc(v.title)}</a></h3>
+        <div class="company">${esc(v.company)}${v.remote ? ", удалённо" : v.city ? ", " + esc(v.city) : ""}</div></div>
+        <div class="score" aria-label="Соответствие ${pct} процентов">${pct}%</div>
+      </div>
+      <div class="meter"><span style="width:${pct}%"></span></div>
+      <div class="chips">${have}${need}</div>
+      <div class="result-foot"><span>${esc(levelName[v.level])}, ${esc(salary)}</span>
+        ${llmOn ? `<button class="ghost" data-assess="${v.id}" type="button">Разбор от Claude</button>` : ""}</div>
+      <div class="ai-slot"></div>
+    </article>`;
+  }).join("");
+}
+
+$("#results").addEventListener("click", async (e) => {
+  const btn = e.target.closest("[data-assess]");
+  if (!btn) return;
+  const slot = btn.closest(".result").querySelector(".ai-slot");
+  btn.disabled = true; btn.textContent = "Claude читает вакансию…";
+  try {
+    const a = await api("/api/assess", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ resume: lastResume, vacancy_id: Number(btn.dataset.assess) }),
+    });
+    const li = (xs) => xs.map((x) => `<li>${esc(x)}</li>`).join("");
+    slot.innerHTML = `<div class="ai"><b>Оценка Claude: ${a.fit_score}/100.</b> ${esc(a.advice)}
+      <h4>Сильные стороны</h4><ul>${li(a.strengths)}</ul>
+      <h4>Чего не хватает</h4><ul>${li(a.gaps)}</ul>
+      <h4>Черновик сопроводительного</h4><p>${esc(a.cover_letter)}</p></div>`;
+    btn.remove();
+  } catch (err) {
+    slot.innerHTML = `<div class="ai">${esc(err.message)}</div>`;
+    btn.disabled = false; btn.textContent = "Разбор от Claude";
+  }
+});
+
+async function loadMarket() {
+  const [sum, skills, sal, trend, companies] = await Promise.all([
+    api("/api/analytics/summary"), api("/api/analytics/skills?limit=14"),
+    api("/api/analytics/salaries"), api("/api/analytics/trend"), api("/api/analytics/companies?limit=8"),
+  ]);
+
+  if (!sum.total) {
+    $("#market-sub").textContent = "База пуста. Запусти сбор: radar ingest --source habr";
+    return;
+  }
+  $("#facts").innerHTML = [
+    [sum.total, "вакансий в базе"], [sum.interns, "из них стажировки"],
+    [Math.round(100 * sum.remote / sum.total) + "%", "можно удалённо"], [sum.companies, "компаний"],
+  ].map(([b, s]) => `<div class="fact"><b>${esc(b)}</b><span>${esc(s)}</span></div>`).join("");
+
+  const maxSkill = Math.max(...skills.map((s) => s.vacancies), 1);
+  $("#skills").innerHTML = skills.map((s) => `<li>
+      <button class="name" type="button" data-skill="${esc(s.skill)}" title="${esc(s.skill)}">${esc(s.skill)}</button>
+      <span class="bar"><i style="width:${(100 * s.vacancies / maxSkill).toFixed(1)}%"></i></span>
+      <span class="val">${s.share_pct}%</span></li>`).join("");
+
+  const levels = sal.by_level;
+  const top = Math.max(...levels.map((l) => l.max_salary), 1);
+  const pos = (x) => (100 * x / top).toFixed(2) + "%";
+  $("#salaries").innerHTML = levels.map((l) => `<div class="range">
+      <div class="range-label"><b>${esc(levelName[l.level] || l.level)}</b><span>медиана ${rub(l.median_salary)}</span></div>
+      <div class="range-track" title="от ${rub(l.min_salary)} до ${rub(l.max_salary)}">
+        <div class="span" style="left:${pos(l.min_salary)};width:calc(${pos(l.max_salary)} - ${pos(l.min_salary)})"></div>
+        <div class="median" style="left:${pos(l.median_salary)}"></div>
+      </div></div>`).join("") + `<div class="axis"><span>0</span><span>${rub(top)}</span></div>`;
+
+  const recent = trend.slice(-10);
+  const maxWeek = Math.max(...recent.map((w) => w.new_vacancies), 1);
+  $("#trend").innerHTML = recent.map((w) => `<div style="height:${(100 * w.new_vacancies / maxWeek).toFixed(1)}%" title="${esc(w.week)}: ${w.new_vacancies}"></div>`).join("");
+  $("#trend-axis").innerHTML = recent.map((w) => `<span>${esc(w.week.slice(5).split("-").reverse().join("."))}</span>`).join("");
+
+  $("#companies tbody").innerHTML = companies.map((c) => `<tr><td>${esc(c.company)}</td>
+      <td class="num">${c.vacancies}</td><td class="num">${Math.round(c.remote_pct)}%</td></tr>`).join("");
+}
+
+$("#skills").addEventListener("click", async (e) => {
+  const b = e.target.closest("[data-skill]");
+  if (!b) return;
+  const pairs = await api(`/api/analytics/skill-pairs?skill=${encodeURIComponent(b.dataset.skill)}&limit=5`);
+  $("#pairs").innerHTML = pairs.length
+    ? `Вместе с <b>${esc(b.dataset.skill)}</b> чаще всего просят: ${pairs.map((p) => esc(p.skill)).join(", ")}.`
+    : `Для <b>${esc(b.dataset.skill)}</b> пока мало данных.`;
+});
+
+loadHealth().catch(() => {});
+loadMarket().catch((err) => { $("#market-sub").textContent = err.message; });
+</script>
+</body>
+</html>

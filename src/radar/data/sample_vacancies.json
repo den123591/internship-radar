@@ -1,0 +1,2156 @@
+[
+ {
+  "source": "habr",
+  "external_id": "1000166598",
+  "title": "Специалист по работе с документами (с английским языком)",
+  "company": "ИТ Контакт",
+  "url": "https://career.habr.com/vacancies/1000166598",
+  "level": "intern",
+  "remote": false,
+  "city": "Санкт-Петербург",
+  "salary_from": 36000,
+  "salary_to": 75000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Английский язык"
+  ],
+  "specializations": [
+   "Менеджер по обслуживанию клиентов"
+  ],
+  "description": null,
+  "published_at": "2026-10-10T19:35:54"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168437",
+  "title": "Стажер Специалист центра мониторинга информационной безопасности",
+  "company": "ИТ-компания «Лоция»",
+  "url": "https://career.habr.com/vacancies/1000168437",
+  "level": "intern",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 49000,
+  "salary_to": 81000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "TCP",
+   "Администрирование Windows",
+   "Информационная безопасность"
+  ],
+  "specializations": [
+   "Специалист по информационной безопасности"
+  ],
+  "description": null,
+  "published_at": "2026-10-10T18:27:21"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000146767",
+  "title": "Специалист тех поддержки (английский язык, смены с 16:00 до 00:00 Мск)",
+  "company": "ТехСофт",
+  "url": "https://career.habr.com/vacancies/1000146767",
+  "level": "intern",
+  "remote": true,
+  "city": null,
+  "salary_from": 50000,
+  "salary_to": null,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Английский язык"
+  ],
+  "specializations": [
+   "Инженер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-10T16:21:15"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168610",
+  "title": "Стажер системный администратор (офис, Москва)",
+  "company": "ЛАНИТ",
+  "url": "https://career.habr.com/vacancies/1000168610",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 49000,
+  "salary_to": 81000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Администрирование Windows",
+   "Системное администрирование"
+  ],
+  "specializations": [
+   "Системный администратор"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T21:27:02"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168507",
+  "title": "Стажер-разработчик баз данных (PostgreSQL)",
+  "company": "IBS",
+  "url": "https://career.habr.com/vacancies/1000168507",
+  "level": "intern",
+  "remote": false,
+  "city": "Пермь",
+  "salary_from": 20000,
+  "salary_to": 30000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "PostgreSQL",
+   "SQL"
+  ],
+  "specializations": [
+   "Разработчик баз данных"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T20:55:29"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169083",
+  "title": "Стажер в управление информационной безопасности",
+  "company": "Северсталь",
+  "url": "https://career.habr.com/vacancies/1000169083",
+  "level": "intern",
+  "remote": false,
+  "city": "Череповец",
+  "salary_from": 39000,
+  "salary_to": 80000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "DevSecOps",
+   "Информационная безопасность"
+  ],
+  "specializations": [
+   "Специалист по информационной безопасности"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T17:02:30"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169073",
+  "title": "Аналитик-стажер 1С",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169073",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 40000,
+  "salary_to": 72000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Анализ требований"
+  ],
+  "specializations": [
+   "Аналитик 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T16:21:52"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169071",
+  "title": "Консультант-стажер 1С",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169071",
+  "level": "intern",
+  "remote": true,
+  "city": null,
+  "salary_from": 35000,
+  "salary_to": 80000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Консультирование"
+  ],
+  "specializations": [
+   "Менеджер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T16:17:27"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169068",
+  "title": "Программист-стажер 1С (офис, Тюмень)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169068",
+  "level": "intern",
+  "remote": false,
+  "city": "Тюмень",
+  "salary_from": 40000,
+  "salary_to": 60000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Разработка под 1С"
+  ],
+  "specializations": [
+   "Программист 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T16:08:56"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169063",
+  "title": "Инженер-программист (стажер, поддержка БИТ.IIoT)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169063",
+  "level": "intern",
+  "remote": true,
+  "city": "Санкт-Петербург",
+  "salary_from": 40000,
+  "salary_to": 60000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Информационные технологии",
+   "Разработка под 1С"
+  ],
+  "specializations": [
+   "Программист 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T15:28:00"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169062",
+  "title": "Консультант-аналитик 1С (стажер)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169062",
+  "level": "intern",
+  "remote": false,
+  "city": "Калининград",
+  "salary_from": 40000,
+  "salary_to": 72000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Консультирование"
+  ],
+  "specializations": [
+   "Аналитик 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T15:26:09"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169061",
+  "title": "Консультант-бухгалтер стажер 1С (бюджетные учреждения)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169061",
+  "level": "intern",
+  "remote": false,
+  "city": "Челябинск",
+  "salary_from": 50000,
+  "salary_to": 100000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Консультирование"
+  ],
+  "specializations": [
+   "Бухгалтер"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T15:24:39"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169059",
+  "title": "Аналитик-консультант 1С (стажер)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169059",
+  "level": "intern",
+  "remote": false,
+  "city": "Нижний Новгород",
+  "salary_from": 40000,
+  "salary_to": 72000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Ведение переговоров",
+   "Техническая документация"
+  ],
+  "specializations": [
+   "Аналитик 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T15:19:49"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169052",
+  "title": "Стажёр технической поддержки IIoT/MDT (1С:ERP, маркировка)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169052",
+  "level": "intern",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 30000,
+  "salary_to": 80000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Техническая поддержка"
+  ],
+  "specializations": [
+   "Менеджер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T15:04:00"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169049",
+  "title": "Инженер-программист (стажер, поддержка БИТ.IIoT)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169049",
+  "level": "intern",
+  "remote": true,
+  "city": "Ростов-на-Дону",
+  "salary_from": 45000,
+  "salary_to": 90000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Информационные технологии"
+  ],
+  "specializations": [
+   "Разработчик приложений"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T14:58:36"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169037",
+  "title": "Инженер-программист (стажер, поддержка БИТ.IIoT)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169037",
+  "level": "intern",
+  "remote": true,
+  "city": "Воронеж",
+  "salary_from": 40000,
+  "salary_to": 68000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Информационные технологии"
+  ],
+  "specializations": [
+   "Программист 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T14:27:13"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169032",
+  "title": "Стажёр технической поддержки IIoT/MDT (1С:ERP, маркировка)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169032",
+  "level": "intern",
+  "remote": true,
+  "city": "Волгоград",
+  "salary_from": 34000,
+  "salary_to": 80000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Техническая поддержка"
+  ],
+  "specializations": [
+   "Менеджер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T14:07:52"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168603",
+  "title": "Стажер инженер технической поддержки (сопровождение пользователей)",
+  "company": "ЛАНИТ",
+  "url": "https://career.habr.com/vacancies/1000168603",
+  "level": "intern",
+  "remote": true,
+  "city": null,
+  "salary_from": 49000,
+  "salary_to": 76000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Active directory",
+   "Сетевые технологии"
+  ],
+  "specializations": [
+   "Инженер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T13:27:09"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169008",
+  "title": "Стажер-программист по регламентированному и финансовому учету в 1С",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169008",
+  "level": "intern",
+  "remote": false,
+  "city": "Воронеж",
+  "salary_from": 40000,
+  "salary_to": 60000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Автоматизация процессов",
+   "Разработка под 1С"
+  ],
+  "specializations": [
+   "Программист 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T12:04:53"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168358",
+  "title": "Backend-разработчик BItrix/PHP (cтажер)",
+  "company": "ИТ-компания «Лоция»",
+  "url": "https://career.habr.com/vacancies/1000168358",
+  "level": "intern",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 50000,
+  "salary_to": 81000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "CI/CD",
+   "CSS",
+   "HTML",
+   "JavaScript",
+   "PHP",
+   "REST",
+   "SQL",
+   "Битрикс24"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T10:28:05"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167929",
+  "title": "Стажер AI-разработчик",
+  "company": "AGIMA",
+  "url": "https://career.habr.com/vacancies/1000167929",
+  "level": "intern",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 20000,
+  "salary_to": 52000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Git",
+   "LLM",
+   "Linux",
+   "Python"
+  ],
+  "specializations": [
+   "Фулстек разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-06T14:27:30"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000166990",
+  "title": "Начинающий специалист по работе с документами (со знанием английского языка)",
+  "company": "ИТ Контакт",
+  "url": "https://career.habr.com/vacancies/1000166990",
+  "level": "intern",
+  "remote": false,
+  "city": "Санкт-Петербург",
+  "salary_from": 40000,
+  "salary_to": 85000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Английский язык",
+   "Грамотность"
+  ],
+  "specializations": [
+   "Менеджер по обслуживанию клиентов"
+  ],
+  "description": null,
+  "published_at": "2026-10-05T14:27:14"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167380",
+  "title": "Стажер-специалист в команду CVM",
+  "company": "МТС Банк",
+  "url": "https://career.habr.com/vacancies/1000167380",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 77000,
+  "salary_to": 234000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "A/B тестирование",
+   "Работа в команде"
+  ],
+  "specializations": [
+   "Маркетинговый аналитик"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T17:46:20"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167268",
+  "title": "Аналитик данных - стажер (Data Governance)",
+  "company": "МТС Банк",
+  "url": "https://career.habr.com/vacancies/1000167268",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 65000,
+  "salary_to": 87000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "SQL"
+  ],
+  "specializations": [
+   "Аналитик по данным"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T17:46:20"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167341",
+  "title": "Специалист 1 линии поддержки",
+  "company": "МТС Банк",
+  "url": "https://career.habr.com/vacancies/1000167341",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 33000,
+  "salary_to": 76000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Active directory",
+   "Информационные технологии"
+  ],
+  "specializations": [
+   "Менеджер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T17:46:11"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167320",
+  "title": "Юрисконсульт",
+  "company": "МТС Банк",
+  "url": "https://career.habr.com/vacancies/1000167320",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 66000,
+  "salary_to": 107000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Юриспруденция"
+  ],
+  "specializations": [
+   "Юрист"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T17:46:10"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167274",
+  "title": "Аналитик",
+  "company": "МТС Банк",
+  "url": "https://career.habr.com/vacancies/1000167274",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 65000,
+  "salary_to": 87000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "SQL"
+  ],
+  "specializations": [
+   "Аналитик по данным"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T17:46:10"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167264",
+  "title": "DevOps-инженер (стажер)",
+  "company": "МТС Банк",
+  "url": "https://career.habr.com/vacancies/1000167264",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 51000,
+  "salary_to": 80000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Bash",
+   "DevOps",
+   "Linux"
+  ],
+  "specializations": [
+   "DevOps-инженер"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T17:46:00"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168356",
+  "title": "Функциональный тестировщик / QA инженер (стажировка)",
+  "company": "ИТ-компания «Лоция»",
+  "url": "https://career.habr.com/vacancies/1000168356",
+  "level": "intern",
+  "remote": true,
+  "city": null,
+  "salary_from": 60000,
+  "salary_to": 78000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Git",
+   "MySQL",
+   "PostgreSQL",
+   "REST",
+   "SQL",
+   "Базы данных"
+  ],
+  "specializations": [
+   "Инженер по ручному тестированию"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T15:27:06"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168354",
+  "title": "Разработчик .NET (Стажер)",
+  "company": "ИТ-компания «Лоция»",
+  "url": "https://career.habr.com/vacancies/1000168354",
+  "level": "intern",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 50000,
+  "salary_to": 75000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "C#"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T14:56:11"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168346",
+  "title": "Стажёр в управление проектами",
+  "company": "ИТ-компания «Лоция»",
+  "url": "https://career.habr.com/vacancies/1000168346",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 70000,
+  "salary_to": 124000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "PMBOK",
+   "Работа в команде",
+   "Управление проектами"
+  ],
+  "specializations": [
+   "Менеджер проекта"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T13:43:19"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168347",
+  "title": "Стажёр-фронтенд разработчик",
+  "company": "ИТ-компания «Лоция»",
+  "url": "https://career.habr.com/vacancies/1000168347",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 65000,
+  "salary_to": 95000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Git",
+   "JSON",
+   "JavaScript",
+   "React",
+   "TypeScript"
+  ],
+  "specializations": [
+   "Фронтенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T13:42:57"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168345",
+  "title": "Стажер-аналитик",
+  "company": "ИТ-компания «Лоция»",
+  "url": "https://career.habr.com/vacancies/1000168345",
+  "level": "intern",
+  "remote": true,
+  "city": null,
+  "salary_from": null,
+  "salary_to": null,
+  "salary_currency": null,
+  "salary_is_predicted": false,
+  "skills": [
+   "Анализ требований",
+   "Системный анализ"
+  ],
+  "specializations": [
+   "Системный аналитик"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T13:27:14"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168665",
+  "title": "Концертный менеджер",
+  "company": "ИП Коновалова Дарья Александровна",
+  "url": "https://career.habr.com/vacancies/1000168665",
+  "level": "intern",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 145000,
+  "salary_to": 300000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Ведение переговоров",
+   "Грамотность",
+   "Консультирование",
+   "Работа в команде",
+   "Русский язык"
+  ],
+  "specializations": [
+   "Менеджер по продажам"
+  ],
+  "description": null,
+  "published_at": "2026-10-03T12:56:09"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000151479",
+  "title": "Системный аналитик",
+  "company": "Ингруппа",
+  "url": "https://career.habr.com/vacancies/1000151479",
+  "level": "intern",
+  "remote": false,
+  "city": "Пенза",
+  "salary_from": 50000,
+  "salary_to": 100000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "BPMN",
+   "Анализ данных",
+   "Английский язык",
+   "Разработка ТЗ",
+   "Системная аналитика"
+  ],
+  "specializations": [
+   "Системный аналитик"
+  ],
+  "description": null,
+  "published_at": "2026-09-22T10:40:36"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000163346",
+  "title": "Python Developer",
+  "company": "ITK academy",
+  "url": "https://career.habr.com/vacancies/1000163346",
+  "level": "junior",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 75000,
+  "salary_to": null,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Django",
+   "Docker",
+   "FastAPI",
+   "Git",
+   "PostgreSQL",
+   "Python",
+   "SQL",
+   "ООП"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-10T15:27:22"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000166122",
+  "title": "1С Аналитик",
+  "company": "Aston",
+  "url": "https://career.habr.com/vacancies/1000166122",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": null,
+  "salary_to": null,
+  "salary_currency": null,
+  "salary_is_predicted": false,
+  "skills": [
+   "1C: ERP",
+   "Высоконагруженные системы"
+  ],
+  "specializations": [
+   "Аналитик 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-10T15:27:06"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168625",
+  "title": "Системный аналитик",
+  "company": "ITK academy",
+  "url": "https://career.habr.com/vacancies/1000168625",
+  "level": "junior",
+  "remote": true,
+  "city": "Нижний Новгород",
+  "salary_from": 100000,
+  "salary_to": 130000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "BPMN",
+   "SOAP",
+   "SQL",
+   "UML",
+   "Анализ требований",
+   "Базы данных",
+   "Разработка ТЗ",
+   "Системный анализ"
+  ],
+  "specializations": [
+   "Системный аналитик"
+  ],
+  "description": null,
+  "published_at": "2026-10-10T09:27:09"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169115",
+  "title": "Инженер отдела сетей передачи данных",
+  "company": "Это рекрутинг",
+  "url": "https://career.habr.com/vacancies/1000169115",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 150000,
+  "salary_to": 180000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "BGP",
+   "OSPF",
+   "TCP",
+   "Настройка оборудования Cisco"
+  ],
+  "specializations": [
+   "Системный администратор"
+  ],
+  "description": null,
+  "published_at": "2026-10-09T17:22:40"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168620",
+  "title": "Менеджер по продажам",
+  "company": "IBS",
+  "url": "https://career.habr.com/vacancies/1000168620",
+  "level": "junior",
+  "remote": false,
+  "city": "Ульяновск",
+  "salary_from": 57000,
+  "salary_to": 87000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Ведение переговоров"
+  ],
+  "specializations": [
+   "Менеджер по продажам"
+  ],
+  "description": null,
+  "published_at": "2026-10-09T14:27:12"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168619",
+  "title": "Специалист по работе с клиентами",
+  "company": "IBS",
+  "url": "https://career.habr.com/vacancies/1000168619",
+  "level": "junior",
+  "remote": false,
+  "city": "Омск",
+  "salary_from": null,
+  "salary_to": null,
+  "salary_currency": null,
+  "salary_is_predicted": false,
+  "skills": [
+   "Ведение переговоров"
+  ],
+  "specializations": [
+   "Менеджер по продажам"
+  ],
+  "description": null,
+  "published_at": "2026-10-09T14:27:11"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000166829",
+  "title": "Java-разработчик",
+  "company": "Лига Цифровой Экономики",
+  "url": "https://career.habr.com/vacancies/1000166829",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": null,
+  "salary_to": null,
+  "salary_currency": null,
+  "salary_is_predicted": false,
+  "skills": [
+   "Apache Kafka",
+   "Java",
+   "PostgreSQL",
+   "Spring Boot"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-09T13:51:27"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168205",
+  "title": "Инженер-тестировщик (QA WebUI)",
+  "company": "ИнфоТеКС",
+  "url": "https://career.habr.com/vacancies/1000168205",
+  "level": "junior",
+  "remote": false,
+  "city": "Рязань",
+  "salary_from": 90000,
+  "salary_to": 117000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Allure",
+   "CSS",
+   "Git",
+   "Jenkins",
+   "Linux",
+   "Playwright",
+   "TypeScript"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-09T11:58:06"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168122",
+  "title": "Automation QA (Java)",
+  "company": "ITK academy",
+  "url": "https://career.habr.com/vacancies/1000168122",
+  "level": "junior",
+  "remote": true,
+  "city": "Казань",
+  "salary_from": null,
+  "salary_to": 120000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "CI/CD",
+   "Git",
+   "JSON",
+   "Java",
+   "SQL",
+   "Selenium",
+   "Spring Boot",
+   "TestNG"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-09T09:27:06"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168506",
+  "title": "Младший разработчик (Big Data, хранилище данных)",
+  "company": "IBS",
+  "url": "https://career.habr.com/vacancies/1000168506",
+  "level": "junior",
+  "remote": false,
+  "city": "Нижний Новгород",
+  "salary_from": 30000,
+  "salary_to": 40800,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "SQL"
+  ],
+  "specializations": [
+   "Фулстек разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T20:49:57"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168501",
+  "title": "Ресерчер",
+  "company": "Vital Partners",
+  "url": "https://career.habr.com/vacancies/1000168501",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": null,
+  "salary_to": null,
+  "salary_currency": null,
+  "salary_is_predicted": false,
+  "skills": [
+   "Английский язык"
+  ],
+  "specializations": [
+   "Ресечер"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T20:27:06"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168829",
+  "title": "QA Automation Engineer (Java)",
+  "company": "Aston",
+  "url": "https://career.habr.com/vacancies/1000168829",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": 85000,
+  "salary_to": 150000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Apache Kafka",
+   "Java",
+   "Linux"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T17:45:28"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169084",
+  "title": "Специалист службы локальной информационно-технической поддержки",
+  "company": "Напитки Вместе",
+  "url": "https://career.habr.com/vacancies/1000169084",
+  "level": "junior",
+  "remote": false,
+  "city": "Казань",
+  "salary_from": 74000,
+  "salary_to": 111000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Администрирование серверов",
+   "Администрирование сетей",
+   "Настройка и ремонт компьютерной техники",
+   "Ремонт и обслуживание ПК",
+   "Системное администрирование",
+   "Техническая поддержка"
+  ],
+  "specializations": [
+   "Системный инженер"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T17:19:41"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169081",
+  "title": "Backend-разработчик (Java Spring / Node.js)",
+  "company": "HeadStart",
+  "url": "https://career.habr.com/vacancies/1000169081",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 3000,
+  "salary_to": 3500,
+  "salary_currency": "USD",
+  "salary_is_predicted": false,
+  "skills": [
+   "CSS",
+   "HTML",
+   "JavaScript",
+   "Node.js",
+   "React",
+   "Веб-разработка"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T16:52:17"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169074",
+  "title": "Младший аналитик 1С",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169074",
+  "level": "junior",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 76000,
+  "salary_to": 137000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Описание бизнес-процессов"
+  ],
+  "specializations": [
+   "Аналитик 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T16:24:14"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169072",
+  "title": "Младший программист 1С",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169072",
+  "level": "junior",
+  "remote": false,
+  "city": "Санкт-Петербург",
+  "salary_from": 73000,
+  "salary_to": 120000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Разработка под 1С"
+  ],
+  "specializations": [
+   "Программист 1С"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T16:18:36"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169064",
+  "title": "Выездной инженер / Начинающий IT-специалист (IT-компания ЛЕММА)",
+  "company": "Первый Бит",
+  "url": "https://career.habr.com/vacancies/1000169064",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 60000,
+  "salary_to": 94000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Техническая поддержка"
+  ],
+  "specializations": [
+   "Инженер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T15:29:06"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000166927",
+  "title": "Инженер поддержки",
+  "company": "УК «Аэропорты Регионов»",
+  "url": "https://career.habr.com/vacancies/1000166927",
+  "level": "junior",
+  "remote": false,
+  "city": "Екатеринбург",
+  "salary_from": 60000,
+  "salary_to": 94000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Решение проблем",
+   "Техническая поддержка"
+  ],
+  "specializations": [
+   "Инженер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T12:27:08"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167255",
+  "title": "Старший специалист отдела информационной безопасности",
+  "company": "Гринатом",
+  "url": "https://career.habr.com/vacancies/1000167255",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": null,
+  "salary_to": 130000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Dr.Web Enterprise Suite",
+   "Kaspersky Endpoint Security",
+   "Безопасность сетей",
+   "Защита информации"
+  ],
+  "specializations": [
+   "Специалист по информационной безопасности"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T11:45:46"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000169000",
+  "title": "Специалист по информационной безопасности (AppSec)",
+  "company": "Action tech",
+  "url": "https://career.habr.com/vacancies/1000169000",
+  "level": "junior",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 105000,
+  "salary_to": 150000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Bash",
+   "Git",
+   "Linux",
+   "Python",
+   "ООП"
+  ],
+  "specializations": [
+   "AppSec-инженер"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T11:24:56"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168283",
+  "title": "Менеджер по внутренним коммуникациям",
+  "company": "ИТ-компания «Лоция»",
+  "url": "https://career.habr.com/vacancies/1000168283",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": null,
+  "salary_to": null,
+  "salary_currency": null,
+  "salary_is_predicted": false,
+  "skills": [
+   "Копирайтинг",
+   "Управление контентом",
+   "Управление медиа"
+  ],
+  "specializations": [
+   "Деврел"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T10:53:57"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168719",
+  "title": "Automation QA (офис Новосибирск)",
+  "company": "Eltex",
+  "url": "https://career.habr.com/vacancies/1000168719",
+  "level": "junior",
+  "remote": false,
+  "city": "Новосибирск",
+  "salary_from": 100000,
+  "salary_to": 160000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Docker",
+   "Linux",
+   "Pytest",
+   "Python"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-08T09:23:22"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168715",
+  "title": "Social Event Manager",
+  "company": "hirix",
+  "url": "https://career.habr.com/vacancies/1000168715",
+  "level": "junior",
+  "remote": false,
+  "city": "Лимассол",
+  "salary_from": 60000,
+  "salary_to": 90000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Организация мероприятий"
+  ],
+  "specializations": [
+   "Менеджер по персоналу"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T16:29:19"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000165252",
+  "title": "Инженер технической поддержки в г. Краснодар",
+  "company": "ИТ-Холдинг Т1",
+  "url": "https://career.habr.com/vacancies/1000165252",
+  "level": "junior",
+  "remote": false,
+  "city": "Краснодар",
+  "salary_from": 54000,
+  "salary_to": 80000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Системное администрирование"
+  ],
+  "specializations": [
+   "Инженер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T15:55:48"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168365",
+  "title": "Junior Go Developer",
+  "company": "ITK academy",
+  "url": "https://career.habr.com/vacancies/1000168365",
+  "level": "junior",
+  "remote": true,
+  "city": "Казань",
+  "salary_from": 75000,
+  "salary_to": 125000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Go",
+   "RESTful API",
+   "SQL",
+   "TCP",
+   "Базы данных"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T14:27:17"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168362",
+  "title": "Automation QA (Java)",
+  "company": "ITK academy",
+  "url": "https://career.habr.com/vacancies/1000168362",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": null,
+  "salary_to": 90000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "CI/CD",
+   "Git",
+   "JSON",
+   "Java",
+   "SQL",
+   "Selenium",
+   "Spring Boot",
+   "TestNG"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T14:27:17"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168359",
+  "title": "Java Developer",
+  "company": "ITK academy",
+  "url": "https://career.habr.com/vacancies/1000168359",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": 75000,
+  "salary_to": null,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Apache Kafka",
+   "Docker",
+   "Git",
+   "Java",
+   "Java Spring Framework",
+   "Kotlin",
+   "RabbitMQ"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T14:27:17"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168952",
+  "title": "Системный администратор Windows",
+  "company": "ANCOR",
+  "url": "https://career.habr.com/vacancies/1000168952",
+  "level": "junior",
+  "remote": false,
+  "city": "Подольск",
+  "salary_from": 67000,
+  "salary_to": 102000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Active directory",
+   "Powershell",
+   "Zabbix",
+   "Администрирование Windows",
+   "Английский язык",
+   "Виртуализация",
+   "Системное администрирование",
+   "Системы виртуализации"
+  ],
+  "specializations": [
+   "Системный администратор"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T14:14:04"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168707",
+  "title": "Менеджер чат-поддержки",
+  "company": "hirix",
+  "url": "https://career.habr.com/vacancies/1000168707",
+  "level": "junior",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 50000,
+  "salary_to": 91000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Техническая поддержка"
+  ],
+  "specializations": [
+   "Менеджер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T11:53:16"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168590",
+  "title": "Инженер по нагрузочному тестированию (JMeter) / Performance QA Engineer",
+  "company": "IBS",
+  "url": "https://career.habr.com/vacancies/1000168590",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": null,
+  "salary_to": null,
+  "salary_currency": null,
+  "salary_is_predicted": false,
+  "skills": [
+   "Apache JMeter"
+  ],
+  "specializations": [
+   "Инженер по производительности"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T11:27:28"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167200",
+  "title": "Системный аналитик (Junior/Junior+)",
+  "company": "Солар",
+  "url": "https://career.habr.com/vacancies/1000167200",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 104000,
+  "salary_to": 156000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Git",
+   "Английский язык",
+   "Системный анализ",
+   "Техническая документация"
+  ],
+  "specializations": [
+   "Системный аналитик"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T10:55:15"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168876",
+  "title": "Специалист по информационной безопасности",
+  "company": "ANCOR",
+  "url": "https://career.habr.com/vacancies/1000168876",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 65000,
+  "salary_to": 132000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Linux",
+   "Администрирование Windows",
+   "Анализ угроз",
+   "Защита информации"
+  ],
+  "specializations": [
+   "Специалист по информационной безопасности"
+  ],
+  "description": null,
+  "published_at": "2026-10-07T09:53:13"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000167658",
+  "title": "Аналитик ML-моделей / Специалист по контролю качества (валидации) ML-данных",
+  "company": "ЛАНИТ",
+  "url": "https://career.habr.com/vacancies/1000167658",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 79000,
+  "salary_to": 250000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Python"
+  ],
+  "specializations": [
+   "Аналитик по обеспечению качества"
+  ],
+  "description": null,
+  "published_at": "2026-10-06T17:27:04"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000161173",
+  "title": "Java  разработчик",
+  "company": "ИТ-Холдинг Т1",
+  "url": "https://career.habr.com/vacancies/1000161173",
+  "level": "junior",
+  "remote": true,
+  "city": "Ижевск",
+  "salary_from": 95000,
+  "salary_to": 135000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Apache Kafka",
+   "Docker",
+   "Hibernate",
+   "Java",
+   "PostgreSQL",
+   "Spring Boot"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-05T17:27:24"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000161187",
+  "title": "Java разработчик",
+  "company": "ИТ-Холдинг Т1",
+  "url": "https://career.habr.com/vacancies/1000161187",
+  "level": "junior",
+  "remote": true,
+  "city": "Новосибирск",
+  "salary_from": 80000,
+  "salary_to": 130000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Apache Kafka",
+   "Docker",
+   "Java",
+   "Java Spring Framework",
+   "Kubernetes",
+   "PostgreSQL",
+   "Spring Boot"
+  ],
+  "specializations": [
+   "Бэкенд разработчик"
+  ],
+  "description": null,
+  "published_at": "2026-10-05T17:27:13"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168852",
+  "title": "Performance Engineer",
+  "company": "Aston",
+  "url": "https://career.habr.com/vacancies/1000168852",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": 90000,
+  "salary_to": 162000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Apache JMeter",
+   "Apache Kafka",
+   "Java"
+  ],
+  "specializations": [
+   "Инженер по производительности"
+  ],
+  "description": null,
+  "published_at": "2026-10-05T16:45:00"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000161387",
+  "title": "Сетевой инженер",
+  "company": "ИТ-Холдинг Т1",
+  "url": "https://career.habr.com/vacancies/1000161387",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 88000,
+  "salary_to": 149000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "BGP",
+   "OSPF"
+  ],
+  "specializations": [
+   "Сетевой инженер"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T17:32:25"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000157114",
+  "title": "Выездной инженер технической поддержки",
+  "company": "ИТ-Холдинг Т1",
+  "url": "https://career.habr.com/vacancies/1000157114",
+  "level": "junior",
+  "remote": false,
+  "city": "Санкт-Петербург",
+  "salary_from": 62000,
+  "salary_to": 70000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Linux",
+   "Администрирование Windows",
+   "Настройка и наладка оборудования",
+   "Ремонт и обслуживание ПК",
+   "Техническая поддержка",
+   "Установка и обслуживание офисной техники"
+  ],
+  "specializations": [
+   "Инженер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T16:57:09"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000157161",
+  "title": "Специалист технической поддержки (первая линия)",
+  "company": "ИТ-Холдинг Т1",
+  "url": "https://career.habr.com/vacancies/1000157161",
+  "level": "junior",
+  "remote": false,
+  "city": "Самара",
+  "salary_from": 60000,
+  "salary_to": 94000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Техническая поддержка"
+  ],
+  "specializations": [
+   "Инженер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T16:34:37"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168562",
+  "title": "Младший growth-маркетолог",
+  "company": "ANCOR",
+  "url": "https://career.habr.com/vacancies/1000168562",
+  "level": "junior",
+  "remote": false,
+  "city": "Волгоград",
+  "salary_from": 45000,
+  "salary_to": 100000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Информационные технологии",
+   "Работа в команде"
+  ],
+  "specializations": [
+   "Маркетинговый аналитик"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T16:27:14"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168561",
+  "title": "Младший growth-маркетолог",
+  "company": "ANCOR",
+  "url": "https://career.habr.com/vacancies/1000168561",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 45000,
+  "salary_to": 100000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Информационные технологии",
+   "Работа в команде"
+  ],
+  "specializations": [
+   "Маркетинговый аналитик"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T16:27:13"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168542",
+  "title": "Младший продакт - менеджер (Производство строительных материалов)",
+  "company": "ANCOR",
+  "url": "https://career.habr.com/vacancies/1000168542",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 95000,
+  "salary_to": 167000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Microsoft Excel",
+   "Работа в команде"
+  ],
+  "specializations": [
+   "Менеджер продукта"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T16:27:04"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168221",
+  "title": "Системный администратор",
+  "company": "AGIMA",
+  "url": "https://career.habr.com/vacancies/1000168221",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": null,
+  "salary_to": 100000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Apache Kafka",
+   "Bash",
+   "Git",
+   "Grafana",
+   "Linux",
+   "MySQL",
+   "Nginx",
+   "PostgreSQL",
+   "SQL",
+   "Базы данных"
+  ],
+  "specializations": [
+   "Системный администратор"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T15:27:15"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000128807",
+  "title": "QA инженер (java/kotlin)",
+  "company": "Action tech",
+  "url": "https://career.habr.com/vacancies/1000128807",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": null,
+  "salary_to": null,
+  "salary_currency": null,
+  "salary_is_predicted": false,
+  "skills": [
+   "Java",
+   "Kotlin",
+   "PostgreSQL",
+   "SQL",
+   "Selenium",
+   "Автоматизация тестирования",
+   "Тестирование ПО",
+   "Функциональное тестирование"
+  ],
+  "specializations": [
+   "Инженер по обеспечению качества"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T12:56:31"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168214",
+  "title": "Автотестировщик в крауд-тестирование",
+  "company": "Яндекс Крауд",
+  "url": "https://career.habr.com/vacancies/1000168214",
+  "level": "junior",
+  "remote": true,
+  "city": "Нижний Новгород",
+  "salary_from": 75000,
+  "salary_to": 130000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Ручное тестирование",
+   "Тестирование UI"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T12:38:27"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168211",
+  "title": "Автотестировщик в крауд-тестирование",
+  "company": "Яндекс Крауд",
+  "url": "https://career.habr.com/vacancies/1000168211",
+  "level": "junior",
+  "remote": true,
+  "city": "Ростов-на-Дону",
+  "salary_from": 75000,
+  "salary_to": 130000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Ручное тестирование",
+   "Тестирование UI"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T12:38:27"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168209",
+  "title": "Автотестировщик в крауд-тестирование",
+  "company": "Яндекс Крауд",
+  "url": "https://career.habr.com/vacancies/1000168209",
+  "level": "junior",
+  "remote": true,
+  "city": "Санкт-Петербург",
+  "salary_from": 86000,
+  "salary_to": 153000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Ручное тестирование",
+   "Тестирование UI"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T12:38:27"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168212",
+  "title": "Автотестировщик в крауд-тестирование",
+  "company": "Яндекс Крауд",
+  "url": "https://career.habr.com/vacancies/1000168212",
+  "level": "junior",
+  "remote": true,
+  "city": "Казань",
+  "salary_from": 75000,
+  "salary_to": 130000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Ручное тестирование",
+   "Тестирование UI"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T12:38:27"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168207",
+  "title": "Автотестировщик в крауд-тестирование",
+  "company": "Яндекс Крауд",
+  "url": "https://career.habr.com/vacancies/1000168207",
+  "level": "junior",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": 98000,
+  "salary_to": 169000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": true,
+  "skills": [
+   "Ручное тестирование",
+   "Тестирование UI"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-04T12:34:00"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168633",
+  "title": "AQA Тестировщик (Python)",
+  "company": "ITK academy",
+  "url": "https://career.habr.com/vacancies/1000168633",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": 75000,
+  "salary_to": 90000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "HTTP",
+   "Python",
+   "REST",
+   "SQL",
+   "Базы данных",
+   "ООП"
+  ],
+  "specializations": [
+   "Инженер по автоматизации тестирования"
+  ],
+  "description": null,
+  "published_at": "2026-10-03T10:50:55"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168162",
+  "title": "Специалист технической поддержки (L1) / Support Engineer",
+  "company": "BGStaff",
+  "url": "https://career.habr.com/vacancies/1000168162",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": 35000,
+  "salary_to": 43000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "Техническая поддержка"
+  ],
+  "specializations": [
+   "Менеджер технической поддержки"
+  ],
+  "description": null,
+  "published_at": "2026-10-02T08:27:17"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168530",
+  "title": "Network engineer",
+  "company": "OKO.Labs",
+  "url": "https://career.habr.com/vacancies/1000168530",
+  "level": "junior",
+  "remote": true,
+  "city": "Москва",
+  "salary_from": null,
+  "salary_to": 120000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "DNS",
+   "Debian",
+   "Docker",
+   "Git",
+   "Linux",
+   "REST",
+   "Redis",
+   "SQL",
+   "Ubuntu",
+   "Настройка VPN"
+  ],
+  "specializations": [
+   "Сетевой инженер"
+  ],
+  "description": null,
+  "published_at": "2026-10-01T15:09:53"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168847",
+  "title": "Маркетолог",
+  "company": "СК Комната",
+  "url": "https://career.habr.com/vacancies/1000168847",
+  "level": "junior",
+  "remote": false,
+  "city": "Москва",
+  "salary_from": 80000,
+  "salary_to": 110000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "SMM",
+   "Интернет маркетинг",
+   "Контент маркетинг"
+  ],
+  "specializations": [
+   "SMM-специалист"
+  ],
+  "description": null,
+  "published_at": "2026-09-27T15:51:56"
+ },
+ {
+  "source": "habr",
+  "external_id": "1000168768",
+  "title": "SMM-менеджер",
+  "company": "Photon Pictures",
+  "url": "https://career.habr.com/vacancies/1000168768",
+  "level": "junior",
+  "remote": true,
+  "city": null,
+  "salary_from": 20000,
+  "salary_to": 35000,
+  "salary_currency": "RUR",
+  "salary_is_predicted": false,
+  "skills": [
+   "SMM",
+   "Веб аналитика",
+   "Контент маркетинг",
+   "Копирайтинг",
+   "Монтаж видео"
+  ],
+  "specializations": [
+   "SMM-специалист"
+  ],
+  "description": null,
+  "published_at": "2026-09-19T17:48:05"
+ }
+]
