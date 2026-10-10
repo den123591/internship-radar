@@ -27,7 +27,8 @@ def top_skills(engine: Engine, limit: int = 20, level: str | None = None) -> lis
     """Самые востребованные навыки: число вакансий, доля и место в рейтинге."""
     sql = """
     WITH filtered AS (
-        SELECT id FROM vacancies WHERE (CAST(:level AS VARCHAR) IS NULL OR level = CAST(:level AS VARCHAR))
+        SELECT id FROM vacancies
+        WHERE CAST(:level AS VARCHAR) IS NULL OR level = CAST(:level AS VARCHAR)
     ),
     counts AS (
         SELECT s.name AS skill, COUNT(*) AS vacancies
